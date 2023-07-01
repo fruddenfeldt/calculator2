@@ -1,0 +1,45 @@
+:root {
+    background-color: black;
+    display: flex;
+}
+
+#mainWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 50%;
+    justify-content: center;
+    
+}
+
+displayWrapper {
+    display: flex;
+}
+
+#display {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#buttonWrapper {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px ;
+}
+
+#zeroButton {
+    width: 170px;
+}
