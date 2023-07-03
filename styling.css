@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
-    margin-left: 50%;
+    
     justify-content: center;
     
 }
@@ -24,6 +24,16 @@ displayWrapper {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerDisplay {
+    display: flex;
+    height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: beige;
 }
 
 #buttonWrapper {
@@ -38,6 +48,10 @@ displayWrapper {
     width: 80px;
     height: 80px;
     border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 #zeroButton {
